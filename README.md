@@ -36,4 +36,9 @@ Below is a picture of our home page, where users can immediately see films being
 
 # Secure Routes 
 
-In order to use all of Burnt Toast's features, the user must be logged in with either an existing account or through the respective form pages. 
+In order to use all of Burnt Toast's features, the user must be logged in with an existing account which they can obtain from using the sign up form the website provides. 
+
+https://user-images.githubusercontent.com/83728526/147856929-9b63cb02-3d24-4756-8216-026ba4c155f1.mp4
+
+
+
