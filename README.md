@@ -40,7 +40,7 @@ In order to use all of Burnt Toast's features, the user must be logged in with a
 
 https://user-images.githubusercontent.com/83728526/147856929-9b63cb02-3d24-4756-8216-026ba4c155f1.mp4
 
-# Comments
+# Comments
 
 One of the most interesting features of our website is being able to like comments + being able to comment and rate a move with the use of a form. I think here we could have made it so that the user can make the comment on the same page instead of being taken to a different page where they have to fill out a form. 
 
