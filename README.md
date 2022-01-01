@@ -69,13 +69,13 @@ Some further pages, include a user Profile page, an Edit form a Delete Button wh
 * Experiencing how to use Git development branches when working in a team, it was completelty new to me but honestly something I'm glad I have now got some experience with. 
 * **React had an update** React Router 6 came in during the time we started our project and `Redirect` was replaced with `useNavigate`, so finding out the changes through documentation was probably a small glimpse of what industry practice could be like. 
 
-# Wins 
+# Wins 
 
 * The design is really good, the colour schemes, the styling, the use of React Bootstrap, I can tell a lot of websites I use regularly most likely use it to. I wish I had found out about it when doing project two.  
 * Working with Arthur and Shahrukh, I feel like I've made some good friends in those two. Time can go by very quickly when you have colleagues who are fun to work with. Not everything was pitch perfect of course, we had our disagreements but being able to compromise and respect one another's opinions/methods is what it means to be a team player.
 * I had more chances to problem solve and debug errors.
 
-# Future Enhancements
+# Future Enhancements
 
 * Being able to edit the user profile would be a cool addition to have.
 * Users being able to follow one another would be cool. 
