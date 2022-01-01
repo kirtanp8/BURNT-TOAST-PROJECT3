@@ -46,5 +46,15 @@ One of the most interesting features of our website is being able to like commen
 
 https://user-images.githubusercontent.com/83728526/147858698-c934adeb-f73e-4fb8-8ed5-1cacc4548f14.mp4
 
+# Search Bar
 
+The implementation of a search bar is another cool feature to include and one that I'm very proud of, it's definitley neccessary and is also a feature used in the Rotten Tomatoes website. 
+
+I also think the use of a dropdown menu is required here because we don't have every single film in our database, although this wouldn't be seen on most mainstream websites. 
+
+https://user-images.githubusercontent.com/83728526/147858994-5ddcdc00-f8df-4cd2-a949-db0a55c93df3.mp4
+
+# Further Pages
+
+Some further pages, include a user Profile page, an Edit form a Delete Button where users can delete and edit the movies they have added to the database. 
 
