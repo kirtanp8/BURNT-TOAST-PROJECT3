@@ -36,4 +36,4 @@ Below is a picture of our home page, where users can immediately see films being
 
 # Secure Routes 
 
-In order to 
+In order to use all of Burnt Toast's features, the user must be logged in with either an existing account or through the respective form pages. 
