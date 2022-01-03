@@ -30,7 +30,9 @@ We thought it would be a good idea to start off by using a wire frame to picture
 
 # Teamwork
 
-Working with Shahrukh and Arthur was a really fun experience, I would definitley enjoy working with them again too as we all worked really hard and had a lot of fun doing so, some days we worked 9.00am - 1.00am with a few breaks in between, but I personally never felt burnt out doing so, as I was doing what I loved and had company doing so. We used VSCode's LiveShare extension from my desktop most days and we would all work on seperate elements, when one of us got stuck, we would tackle the problems together.  
+Working with Shahrukh and Arthur was a really fun experience, I would definitley enjoy working with them in the near future too as we all worked really hard and had a lot of fun doing so, some days we worked 9.00am - 1.00am with a few food breaks in between, but I personally never felt burnt out doing so, as I was doing what I loved and had company doing so, I feel time can go a lot faster with great company. 
+
+We used VSCode's LiveShare extension from my desktop most days and we would all work on seperate elements, when one of us got stuck, we would tackle the problems together.  
 
 # Home Page 
 
@@ -60,7 +62,7 @@ https://user-images.githubusercontent.com/83728526/147858994-5ddcdc00-f8df-4cd2-
 
 # Further Pages
 
-Some further pages, include a user Profile page, an Edit form a Delete Button where users can delete and edit the movies they have added to the database. 
+Some further pages, include a user Profile page, an Edit form a Delete Button where users can edit and delete the movies they have added to the database. 
 
 # Challenges 
 
@@ -71,8 +73,8 @@ Some further pages, include a user Profile page, an Edit form a Delete Button wh
 
 # Wins 
 
-* The design is really good, the colour schemes, the styling, the use of React Bootstrap, I can tell a lot of websites I use regularly most likely use it to. I wish I had found out about it when doing project two.  
-* Working with Arthur and Shahrukh, I feel like I've made some good friends in those two. Time can go by very quickly when you have colleagues who are fun to work with. Not everything was pitch perfect of course, we had our disagreements but being able to compromise and respect one another's opinions/methods is what it means to be a team player.
+* The design is really good, the colour schemes, the styling, the use of React Bootstrap, I can tell a lot of websites I use regularly most likely use it to. I wish I had found out about it when doing project two :sob:.  
+* Working with Arthur and Shahrukh, I feel like I've made some good friends in those two. Time can go by very quickly when you have colleagues who are fun to work with. Not everything was pitch perfect of course, we had our disagreements but being able to compromise and respect one another's opinions/methods is what it means to be a good team.
 * I had more chances to problem solve and debug errors.
 
 # Future Enhancements
