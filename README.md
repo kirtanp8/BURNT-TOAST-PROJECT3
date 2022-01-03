@@ -26,11 +26,11 @@ Working in a group of 3, it was decided that we create a website similar to Rott
 
 # Approach / Planning
 
-We thought it would be a good idea to start off by using a wire frame to picture something to aim for and used trello to plan what needed to be done in order to reach a the MVP.
+We thought it would be a good idea to start off by using a wire frame to picture something to aim for and used trello to plan what needed to be done in order to reach the MVP.
 
 # Teamwork
 
-Working with Shahrukh and Arthur was a really fun experience, I would definitley enjoy working with them in the near future too as we all worked really hard and had a lot of fun doing so, some days we worked 9.00am - 1.00am with a few food breaks in between, but I personally never felt burnt out doing so, as I was doing what I loved and had company doing so, I feel time can go a lot faster with great company. 
+Working with Shahrukh and Arthur was a really fun experience, I would definitely enjoy working with them in the near future too as we all worked really hard and had a lot of fun doing so, some days we worked 9.00am - 1.00am with a few food breaks in between, but I personally never felt burnt out doing so, as I was doing what I loved and had company doing so, I feel time can go a lot faster with great company. 
 
 We used VSCode's LiveShare extension from my desktop most days and we would all work on seperate elements, when one of us got stuck, we would tackle the problems together.  
 
@@ -54,7 +54,7 @@ https://user-images.githubusercontent.com/83728526/147858698-c934adeb-f73e-4fb8-
 
 # Search Bar
 
-The implementation of a search bar is another cool feature to include and one that I'm very proud of, it's definitley neccessary and is also a feature used in the Rotten Tomatoes website. 
+The implementation of a search bar is another cool feature to include and one that I'm very proud of, it's definitely necessary and is also a feature used in the Rotten Tomatoes website. 
 
 I also think the use of a dropdown menu is required here because we don't have every single film in our database, although this wouldn't be seen on most mainstream websites. 
 
@@ -68,12 +68,12 @@ Some further pages, include a user Profile page, an Edit form a Delete Button wh
 
 * Learning how to use 'bcrypt' for the first time to store and hash passwords was a very enjoyable challenge! 
 * Getting used to working with the backend and seeing how both the front-end and back-end interact with one another. 
-* Experiencing how to use Git development branches when working in a team, it was completelty new to me but honestly something I'm glad I have now got some experience with. 
+* Experiencing how to use Git development branches when working in a team, it was completely new to me but honestly something I'm glad I have now got some experience with. 
 * **React had an update** React Router 6 came in during the time we started our project and `Redirect` was replaced with `useNavigate`, so finding out the changes through documentation was probably a small glimpse of what industry practice could be like. 
 
 # Wins 
 
-* The design is really good, the colour schemes, the styling, the use of React Bootstrap, I can tell a lot of websites I use regularly most likely use it to. I wish I had found out about it when doing project two :sob:.  
+* The design is really good, the colour schemes, the styling, the use of React Bootstrap, I can tell a lot of websites I use regularly most likely use it too. I wish I had found out about it when doing project two :sob:.  
 * Working with Arthur and Shahrukh, I feel like I've made some good friends in those two. Time can go by very quickly when you have colleagues who are fun to work with. Not everything was pitch perfect of course, we had our disagreements but being able to compromise and respect one another's opinions/methods is what it means to be a good team.
 * I had more chances to problem solve and debug errors.
 
