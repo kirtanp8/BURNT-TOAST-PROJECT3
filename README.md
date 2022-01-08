@@ -30,8 +30,6 @@ We thought it would be a good idea to start off by using a wire frame to picture
 
 # Teamwork
 
-Working with Shahrukh and Arthur was a really fun experience, I would definitely enjoy working with them in the near future too as we all worked really hard and had a lot of fun doing so, some days we worked 9.00am - 1.00am with a few food breaks in between, but I personally never felt burnt out doing so, as I was doing what I loved and had company doing so, I feel time can go a lot faster with great company. 
-
 We used VSCode's LiveShare extension from my desktop most days and we would all work on seperate elements, when one of us got stuck, we would tackle the problems together.  
 
 # Home Page 
@@ -76,8 +74,15 @@ Some further pages, include a user Profile page, an Edit form a Delete Button wh
 * The design is really good, the colour schemes, the styling, the use of React Bootstrap, I can tell a lot of websites I use regularly most likely use it too. I wish I had found out about it when doing project two :sob:.  
 * Working with Arthur and Shahrukh, I feel like I've made some good friends in those two. Time can go by very quickly when you have colleagues who are fun to work with. Not everything was pitch perfect of course, we had our disagreements but being able to compromise and respect one another's opinions/methods is what it means to be a good team.
 * I had more chances to problem solve and debug errors.
+* Working with Shahrukh and Arthur was a really fun experience, I would definitely enjoy working with them in the near future too as we all worked really hard and had a lot of fun doing so, some days we worked 9.00am - 1.00am with a few food breaks in between, but I personally never felt burnt out doing so, as I was doing what I loved and had company doing so, I feel time can go a lot faster with great company. 
 
 # Future Enhancements
 
 * Being able to edit the user profile would be a cool addition to have.
 * Users being able to follow one another would be cool. 
+
+# Key Learnings
+
+* CRUD: Learning how to implement CRUD functionalities and testing if they work in the back-end with the use of Postman and Insomnia.
+* Learning how the back-end interacts with the front-end. For example: the data we retrieve from the Register Form (front-end) and how it sends the data to the back-end if the user has correctly added in their details.
+
