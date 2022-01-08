@@ -2,8 +2,8 @@
 
 # Team Members 
 
-[Arthur](https://github.com/arthur-ruxton)
-[Shahrukh](https://github.com/shak-h)
+* [Arthur](https://github.com/arthur-ruxton)
+* [Shahrukh](https://github.com/shak-h)
 
 # Overview 
 
