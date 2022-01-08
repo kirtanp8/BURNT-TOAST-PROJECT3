@@ -1,5 +1,10 @@
 # BURNT-TOAST--Movie-Review-Site
 
+# Team Members 
+
+[Arthur](https://github.com/arthur-ruxton)
+[Shahrukh](https://github.com/shak-h)
+
 # Overview 
 
 The Brief for this project was to build a MERN stack application utilising:
