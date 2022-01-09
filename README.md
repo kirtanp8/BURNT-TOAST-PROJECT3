@@ -47,19 +47,79 @@ We used VSCode's LiveShare extension from my desktop most days and we would all 
 
 # Individual Tasks
 
-I was tasked with more work in the front-end than the back-end as I felt that I wasn't completely strong with it and I would only slow the team down if I were to allocate more of my time to it, even though I wanted to. However, this did not stop me from getting completely stuck in. 
+I was tasked with more work in the front-end than the back-end as I felt that I wasn't completely strong with it and I would only slow the team down if I were to allocate most of my time to it, even though I wanted to. However, this did not stop me from getting completely stuck in. 
 
 Listed below are some of the things I worked on individually: 
 
 **Back-end**
-* User Login 
-* User Registration
+* Add a Movie to the Data Base
+* Remove Movie from the Data Base
+* Edit Movie in the Data Base
 
 **Front-end**
 * Search Bar 
 * The Carousel on the Home Page
-* The Login Form
-* The Register Form 
+* The Add Movie Form
+* The Remove Movie Function 
+* The Edit Movie Form
+
+# Back-end Individual Tasks
+
+To get the user Create, Update and Delete functions To Work in the back-end I created the below functions:
+
+ 
+**Delete** 
+
+The delete a movie function below:
+* First checks which movie has been deleted by grabbing the id from the request url. 
+* Then with the line here -> `if (!movieToDelete.owner.equals(req.currentUser._id))`, it checks to see if the user was the one who added it to the database.
+* If not the function throws an error. 
+
+```
+export const removeMovie = async (req, res) => {
+  try {
+    const { id } = req.params
+    const movieToDelete = await Movie.findById(id)
+    if (!movieToDelete) throw new Error()
+    if (!movieToDelete.owner.equals(req.currentUser._id)) throw new Error()
+    await movieToDelete.remove()
+    return res.sendStatus(204)
+  } catch (err) {
+    console.log(err)
+    return res.status(404).json({ message: 'Not Found'})
+  }
+}
+
+```
+
+export const addMovie = async (req, res) => {
+  try {
+    // console.log(req.body)
+    // console.log(owner req.currentUser._id)
+    const newMovie = { ...req.body, owner: req.currentUser._id }
+    const movieToAdd = await Movie.create(newMovie)
+    return res.status(201).json(movieToAdd)
+  } catch (err) {
+    console.log(err)
+    return res.status(422).json(err)
+  }
+}
+
+//Put /movies/:id
+//Update a specific movie
+export const updateMovie = async (req, res) => {
+  try {
+    const { id } = req.params
+    await Movie.findByIdAndUpdate(id, req.body)
+    const updatedMovie = await Movie.findById(id)
+    return res.status(202).json(updatedMovie)
+  } catch (err) {
+    console.log(err)
+    return res.status(404).json({ 'message': 'Not Found'})
+  }
+
+
+```
 
 # Home Page 
 
