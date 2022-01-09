@@ -45,6 +45,22 @@ Below I have attached a copy of our Trello Board:
 
 We used VSCode's LiveShare extension from my desktop most days and we would all work on seperate elements, when one of us got stuck, we would tackle the problems together.  
 
+# Individual Tasks
+
+I was tasked with more work in the front-end than the back-end as I felt that I wasn't completely strong with it and I would only slow the team down if I were to allocate more of my time to it, even though I wanted to. However, this did not stop me from getting completely stuck in. 
+
+Listed below are some of the things I worked on individually: 
+
+Back-end
+* User Login 
+* User Registration
+
+Front-end
+* Search Bar 
+* The Carousel on the Home Page
+* The Login Form
+* The Register Form 
+
 # Home Page 
 
 Below is a picture of our home page, where users can immediately see films being displayed with an automatic Carousel right in the middle of their screen + they can see its possible to search for a film through a search bar, however, it would have been impossible to add every single film to the database so we just added our favourites.  
@@ -71,9 +87,11 @@ I also think the use of a dropdown menu is required here because we don't have e
 
 https://user-images.githubusercontent.com/83728526/147858994-5ddcdc00-f8df-4cd2-a949-db0a55c93df3.mp4
 
+
 # Further Pages
 
-Some further pages, include a user Profile page, an Edit form a Delete Button where users can edit and delete the movies they have added to the database. 
+Some further pages, include a user Profile page, an Edit form and a Delete Button where users can edit and delete the movies they have added to the database. 
+
 
 # Challenges 
 
