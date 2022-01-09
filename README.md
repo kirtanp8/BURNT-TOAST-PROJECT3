@@ -31,9 +31,9 @@ Working in a group of 3, it was decided that we create a website similar to Rott
 
 # Approach / Planning
 
-We thought it would be a good idea to start off by using a wire frame to picture something to aim for and used trello to plan what needed to be done in order to reach the MVP.
+We thought it would be a good idea to start off by using a wireframe to picture something to aim for and used trello to plan what needed to be done in order to reach the MVP.
 
-Below I have attached a copy of our wireframe for our homepage to use an example:
+Below I have attached a copy of one of our wireframes which was the homepage to use as an example:
 ![Screenshot 2022-01-08 at 22 47 09](https://user-images.githubusercontent.com/83728526/148662437-f827e0ae-3e96-43b6-a8e7-0c29fc0d9fa7.png)
 
 
