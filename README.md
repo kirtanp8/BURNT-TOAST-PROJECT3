@@ -1,5 +1,12 @@
 # BURNT-TOAST--Movie-Review-Site
 
+An application for reviewing and discussing movies.
+
+Feel free to browse the application at: http://burnt-toast-ga.herokuapp.com/ 
+
+Username: Burnt Toast
+Password: admin
+
 # Team Members 
 
 * [Arthur](https://github.com/arthur-ruxton)
