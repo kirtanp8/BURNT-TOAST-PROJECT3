@@ -133,6 +133,8 @@ export const updateMovie = async (req, res) => {
 
 ```
 
+# Front-end Individual Tasks
+
 # Home Page 
 
 Below is a picture of our home page, where users can immediately see films being displayed with an automatic Carousel right in the middle of their screen + they can see its possible to search for a film through a search bar, however, it would have been impossible to add every single film to the database so we just added our favourites.  
