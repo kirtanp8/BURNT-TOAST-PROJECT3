@@ -227,8 +227,8 @@ To get the Edit a Movie Form to work we used the following functions:
   
 ```
 
-* The below function `fethchOneMovie(id)` is imported from another file in our front-end after collecting the id from `const { id } = useParams()`.
-* We use the `fethchOneMovie(id)` function to find out which film page the user is on.
+* The below function `fethchOneMovie(id)` is imported from another file in our front-end.
+* We use the `fethchOneMovie(id)` function to find out which film page the user is on after collecting the id from `const { id } = useParams()`
 * `.then(setMovie)` is used to fill the required fields with the data already in the database.
 * Meaning the user will be able to play with the information already there. 
 
@@ -240,18 +240,22 @@ To get the Edit a Movie Form to work we used the following functions:
   
 ```
 
+* The below function then collects the data which has been added in by the user and amended the `[movie]` variable above. 
+
 ```
 
-  const handleError = (error) => {
-    if (error.response) {
-      setErrorInfo(error.response.data)
-      setIsError(true)
-    }
+  const handleFormChange = (event) => {
+    const { name, value } = event.target
+    setMovie({
+      ...movie,
+      [name]: value
+    })
   }
 
+```
+* However it only updates with the use of the `handleSubmit()` function below.
 
 ```
-
   const handleSubmit = async (event) => {
     event.preventDefault()
 
@@ -268,20 +272,7 @@ To get the Edit a Movie Form to work we used the following functions:
     }
   }
 
-  const handleFormChange = (event) => {
-    const { name, value } = event.target
-    setMovie({
-      ...movie,
-      [name]: value
-    })
-  }
-
-  // const goBack = () => {
-  //   navigate(-1)
-  // }
-
-  const formInputProps = { data: movie, errorInfo, handleFormChange }
-
+```
 
 
 # Home Page 
