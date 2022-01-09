@@ -4,8 +4,8 @@ An application for reviewing and discussing movies.
 
 Feel free to browse the application at: http://burnt-toast-ga.herokuapp.com/ 
 
-Username: Burnt Toast
-Password: admin
+* Username: Burnt Toast
+* Password: admin
 
 # Team Members 
 
