@@ -206,14 +206,81 @@ for (let i = 0; i < info.length; i ++) {
 
 ```
 
+**Edit Movie Form**
+
+To get the Edit a Movie Form to work we used the following functions:
+
+* The Edit Form requires the following list of fields to be filled out in the form `title`, `director`, `releaseYear`, `description`, `image`, `genre`, `cast` 
+
+```
+
+  const [movie, setMovie] = useState({
+    title: '',
+    director: '',
+    releaseYear: '',
+    description: '',
+    image: '',
+    genre: '',
+    cast: ''
+  })
+  
+  
+```
+
+* The below function `fethchOneMovie(id)` is imported from another file in our front-end after collecting the id from `const { id } = useParams()`.
+* We use the `fethchOneMovie(id)` function to find out which film page the user is on.
+* `.then(setMovie)` is used to fill the required fields with the data already in the database.
+* Meaning the user will be able to play with the information already there. 
+
+```
+
+  useEffect(() => {
+    fetchOneMovie(id).then(setMovie)
+  }, [id])
+  
+```
+
+```
+
+  const handleError = (error) => {
+    if (error.response) {
+      setErrorInfo(error.response.data)
+      setIsError(true)
+    }
+  }
 
 
-**Home Page - Carousel**
+```
 
-**The Add Movie Form**
+  const handleSubmit = async (event) => {
+    event.preventDefault()
 
-**The Remove Movie Function**
-**The Edit Movie Form**
+    const config = getAxiosRequestConfig(`/movies/${id}`, movie, 'put')
+
+    try {
+      const response = await axios(config).catch(handleError)
+
+      console.log(response.data)
+      setIsError(false)
+      navigate(`/movies/${response.data._id}`)
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
+  const handleFormChange = (event) => {
+    const { name, value } = event.target
+    setMovie({
+      ...movie,
+      [name]: value
+    })
+  }
+
+  // const goBack = () => {
+  //   navigate(-1)
+  // }
+
+  const formInputProps = { data: movie, errorInfo, handleFormChange }
 
 
 
