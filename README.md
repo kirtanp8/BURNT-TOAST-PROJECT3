@@ -135,6 +135,88 @@ export const updateMovie = async (req, res) => {
 
 # Front-end Individual Tasks
 
+**Search Bar**
+
+To get the Search Bar to work I created the below functions:
+* The First step was to be able access all of the movies listed in our database, I did this by using a get request and a `useEffect()` function.
+* Then I stored all of the movies from the get request which returns an array of objects containing details of film in each object.
+
+```
+  useEffect(() => {
+    const fetchMovie = async () => {
+      try {
+        const config = {
+          method: 'get',
+          url: '/api/movies',
+          headers: {}
+        }
+        const { data } = await axios(config)
+        setInfo(data)
+        console.log(info)
+        console.log('Info', info)
+      } catch (err) {
+        console.log(err)
+      }
+    }
+    fetchMovie()
+  }, [film])
+
+```
+
+* I then use the below `for loop` to push all of the films in to an empty array called `arrayOfAllFilms`.
+
+```
+for (let i = 0; i < info.length; i ++) {
+    arrayOfAllFilms.push(info[i].title)
+  }
+
+  arrayOfAllFilms.sort()
+```
+
+* We then find out what the user has searched for with the below functions
+* The `handleSubmit` finds out what the user has searched for
+* `if` the film exists in the database it navigates to the film's page
+*  `else if` user types a film that does not yet exist the search bar just keeps the user on the home page or sends them there. 
+
+```
+
+  const handleChange = (event) => {
+    setSearch(event.target.value)
+    console.log('Search', search)
+  }
+
+
+  const handleSubmit = (event) => {
+    event.preventDefault()
+    setFilm(search)
+    if (!arrayOfAllFilms.includes(search)) {
+      navigate('/')
+    }
+    const filmObject = info.filter(item => item.title === search)
+    if (filmObject[0]._id === null || filmObject[0]._id === undefined) {
+      return 
+    } else {
+      const filmObjectId = filmObject[0]._id
+      console.log('Film Object Id', filmObjectId)
+      navigate(`/movies/${filmObjectId}`)
+      setSearch('')
+    }
+  }
+
+
+```
+
+
+
+**Home Page - Carousel**
+
+**The Add Movie Form**
+
+**The Remove Movie Function**
+**The Edit Movie Form**
+
+
+
 # Home Page 
 
 Below is a picture of our home page, where users can immediately see films being displayed with an automatic Carousel right in the middle of their screen + they can see its possible to search for a film through a search bar, however, it would have been impossible to add every single film to the database so we just added our favourites.  
