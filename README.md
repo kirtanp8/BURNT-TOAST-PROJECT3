@@ -138,7 +138,7 @@ export const updateMovie = async (req, res) => {
 **Search Bar**
 
 To get the Search Bar to work I created the below functions:
-* The First step was to be able access all of the movies listed in our database, I did this by using a get request and a `useEffect()` function.
+* The first step was to be able access all of the movies listed in our database, I did this by using a get request and a `useEffect()` function.
 * Then I stored all of the movies from the get request which returns an array of objects containing details of film in each object.
 
 ```
@@ -174,9 +174,9 @@ for (let i = 0; i < info.length; i ++) {
 ```
 
 * We then find out what the user has searched for with the below functions
-* The `handleSubmit` finds out what the user has searched for
-* `if` the film exists in the database it navigates to the film's page
-*  `else if` user types a film that does not yet exist the search bar just keeps the user on the home page or sends them there. 
+* The `handleSubmit()` funciton finds out what the user has searched for.
+* `if` the film exists in the database it navigates to the film's page.
+*  `else if` the user types a film that does not yet exist the search bar just keeps the user on the home page or sends them there if they are not there already. 
 
 ```
 
