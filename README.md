@@ -91,13 +91,15 @@ export const removeMovie = async (req, res) => {
 }
 
 ```
+**Create**
 
+The add a movie function below:
+* Requires a logged in user, in order to add a user to the database. 
+* It will then take in the details provided in the form on the front-end, if a user isn't logged in or the correct details haven't been provided. The function will throw an error.
 
 ```
 export const addMovie = async (req, res) => {
   try {
-    // console.log(req.body)
-    // console.log(owner req.currentUser._id)
     const newMovie = { ...req.body, owner: req.currentUser._id }
     const movieToAdd = await Movie.create(newMovie)
     return res.status(201).json(movieToAdd)
@@ -108,9 +110,15 @@ export const addMovie = async (req, res) => {
 }
 ```
 
+**Edit**
+
+The edit a movie function below: 
+* First checks which movie is being edited through the url provided.
+* Then takes in the changes and returns the updated movie.
+* However, it will throw an error if the user who makes the request is not the owner. 
+
+
 ```
-//Put /movies/:id
-//Update a specific movie
 export const updateMovie = async (req, res) => {
   try {
     const { id } = req.params
