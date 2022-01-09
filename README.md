@@ -92,6 +92,8 @@ export const removeMovie = async (req, res) => {
 
 ```
 
+
+```
 export const addMovie = async (req, res) => {
   try {
     // console.log(req.body)
@@ -104,7 +106,9 @@ export const addMovie = async (req, res) => {
     return res.status(422).json(err)
   }
 }
+```
 
+```
 //Put /movies/:id
 //Update a specific movie
 export const updateMovie = async (req, res) => {
