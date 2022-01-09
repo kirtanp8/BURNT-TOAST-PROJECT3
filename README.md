@@ -51,11 +51,11 @@ I was tasked with more work in the front-end than the back-end as I felt that I 
 
 Listed below are some of the things I worked on individually: 
 
-Back-end
+**Back-end**
 * User Login 
 * User Registration
 
-Front-end
+**Front-end**
 * Search Bar 
 * The Carousel on the Home Page
 * The Login Form
