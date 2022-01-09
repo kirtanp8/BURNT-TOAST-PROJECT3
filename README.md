@@ -173,7 +173,7 @@ for (let i = 0; i < info.length; i ++) {
   arrayOfAllFilms.sort()
 ```
 
-* We then find out what the user has searched for with the below functions
+* We then find out what the user has searched for with the below functions.
 * The `handleSubmit()` funciton finds out what the user has searched for.
 * `if` the film exists in the database it navigates to the film's page.
 *  `else if` the user types a film that does not yet exist the search bar just keeps the user on the home page or sends them there if they are not there already. 
@@ -228,7 +228,7 @@ To get the Edit a Movie Form to work we used the following functions:
 ```
 
 * The below function `fethchOneMovie(id)` is imported from another file in our front-end.
-* We use the `fethchOneMovie(id)` function to find out which film page the user is on after collecting the id from `const { id } = useParams()`
+* We use the `fethchOneMovie(id)` function to find out which film page the user is on after collecting the id from `const { id } = useParams()`.
 * `.then(setMovie)` is used to fill the required fields with the data already in the database.
 * Meaning the user will be able to play with the information already there. 
 
