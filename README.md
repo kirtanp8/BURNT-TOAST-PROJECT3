@@ -234,8 +234,8 @@ To get the Edit a Movie Form to work we used the following functions:
   
 ```
 
-* The below function `fethchOneMovie(id)` is imported from another file in our front-end.
-* We use the `fethchOneMovie(id)` function to find out which film page the user is on after collecting the id from `const { id } = useParams()`.
+* The below function `fetchOneMovie(id)` is imported from another file in our front-end.
+* We use the `fetchOneMovie(id)` function to find out which film page the user is on after collecting the id from `const { id } = useParams()`.
 * `.then(setMovie)` is used to fill the required fields with the data already in the database.
 * Meaning the user will be able to play with the information already there. 
 
