@@ -59,9 +59,9 @@ I was tasked with more work in the front-end than the back-end as I felt that I 
 Listed below are some of the things I worked on individually: 
 
 **Back-end**
-* Add a Movie to the Data Base
-* Remove Movie from the Data Base
-* Edit Movie in the Data Base
+* Add a Movie to the Database
+* Remove Movie from the Database
+* Edit Movie in the Database
 
 **Front-end**
 * Search Bar 
