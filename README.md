@@ -19,7 +19,7 @@ The Brief for this project was to build a MERN stack application utilising:
 * **M**ongoDB - document database
 * **E**xpress(.js) - Node.js web framework
 * **R**eact(.js) - a client-side JavaScript framework
-* Node(.js) - the premier JavaSCript web server
+* **N**ode(.js) - the premier JavaSCript web server
 
 Working in a group of 3, it was decided that we create a website similar to Rotten Tomatoes with the sole focus allowing a user to discuss movies, comment on them, add movies to a Database and delete and edit what they have added. 
 
