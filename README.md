@@ -21,7 +21,7 @@ The Brief for this project was to build a MERN stack application utilising:
 * **R**eact(.js) - a client-side JavaScript framework
 * **N**ode(.js) - the premier JavaSCript web server
 
-Working in a group of 3, it was decided that we create a website similar to Rotten Tomatoes with the sole focus allowing a user to discuss movies, comment on them, add movies to a Database and delete and edit what they have added. 
+Working in a group of 3, it was decided that we should create a website similar to Rotten Tomatoes with the sole focus allowing a user to discuss movies, comment on them, add movies to a Database and delete and edit what they have added. 
 
 # Languages/Technologies Used
 
