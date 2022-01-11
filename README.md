@@ -80,7 +80,7 @@ To get the user Create, Update and Delete functions To Work in the back-end I cr
 The delete a movie function below:
 * First checks which movie has been deleted by grabbing the id from the request url. 
 * Then with the line here -> `if (!movieToDelete.owner.equals(req.currentUser._id))`, it checks to see if the user was the one who added it to the database.
-* If not the function throws an error. 
+* If not, the function throws an error. 
 
 ```
 export const removeMovie = async (req, res) => {
