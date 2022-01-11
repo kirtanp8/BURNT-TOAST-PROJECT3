@@ -180,10 +180,10 @@ for (let i = 0; i < info.length; i ++) {
   arrayOfAllFilms.sort()
 ```
 
-* We then find out what the user has searched for with the below functions.
-* The `handleSubmit()` funciton finds out what the user has searched for.
+* I then find out what the user has searched for with the below functions.
+* The `handleSubmit()` function finds out what the user has searched for.
 * `if` the film exists in the database it navigates to the film's page.
-*  `else if` the user types a film that does not yet exist the search bar just keeps the user on the home page or sends them there if they are not there already. 
+*  `else` the user types a film that does not yet exist in the database, the search bar just keeps the user on the home page or sends them there if they are not there already. 
 
 ```
 
@@ -324,7 +324,6 @@ Some further pages, include a user Profile page, an Edit form and a Delete Butto
 # Wins 
 
 * The design is really good, the colour schemes, the styling, the use of React Bootstrap, I can tell a lot of websites I use regularly most likely use it too. I wish I had found out about it when doing project two :sob:.  
-* Working with Arthur and Shahrukh, I feel like I've made some good friends in those two. Time can go by very quickly when you have colleagues who are fun to work with. Not everything was pitch perfect of course, we had our disagreements but being able to compromise and respect one another's opinions/methods is what it means to be a good team.
 * I had more chances to problem solve and debug errors.
 * Working with Shahrukh and Arthur was a really fun experience, I would definitely enjoy working with them in the near future too as we all worked really hard and had a lot of fun doing so, some days we worked 9.00am - 1.00am with a few food breaks in between, but I personally never felt burnt out doing so, as I was doing what I loved and had company doing so, I feel time can go a lot faster with great company. 
 
@@ -332,6 +331,7 @@ Some further pages, include a user Profile page, an Edit form and a Delete Butto
 
 * Being able to edit the user profile would be a cool addition to have.
 * Users being able to follow one another would be cool. 
+* Uploading an image using cloudinary, but I managed to implement this on my project 4. 
 
 # Key Learnings
 
