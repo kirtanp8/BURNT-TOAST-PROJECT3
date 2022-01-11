@@ -145,8 +145,8 @@ export const updateMovie = async (req, res) => {
 **Search Bar**
 
 To get the Search Bar to work I created the below functions:
-* The first step was to be able access all of the movies listed in our database, I did this by using a get request and a `useEffect()` function.
-* Then I stored all of the movies from the get request which returns an array of objects containing details of film in each object.
+* The first step was to be able to access all of the movies listed in our database, I did this by using a get request and a `useEffect()` function.
+* Then I stored all of the movies from the get request which returns an array of objects containing details of the movies in each object.
 
 ```
   useEffect(() => {
